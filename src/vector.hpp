@@ -14,7 +14,7 @@ class vector
 {
 public:
     using value_type = T;
-    using size_type = std::size_t;
+    using size_type = size_t;
     using pointer = value_type *;
     using const_pointer = value_type const *;
     using reference = value_type &;
